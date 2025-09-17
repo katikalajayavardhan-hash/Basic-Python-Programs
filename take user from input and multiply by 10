@@ -1,0 +1,4 @@
+#take user input and multiply by 10
+num=int(input(" "))
+result=num*10
+print(result)
