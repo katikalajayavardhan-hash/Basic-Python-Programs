@@ -1,0 +1,4 @@
+# minute into seconds
+num=int(input(" "))
+sec=num*60
+print(sec)
