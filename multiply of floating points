@@ -1,0 +1,5 @@
+#multiply of two floating points
+a=float(input(" "))
+b=float(input(" "))
+c=a*b
+print(c)
