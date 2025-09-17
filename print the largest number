@@ -1,0 +1,6 @@
+#print the largest number
+a=float(input(" "))
+b=float(input(" "))
+c=float(input(" "))
+largest=max(a,b,c)
+print(largest)
