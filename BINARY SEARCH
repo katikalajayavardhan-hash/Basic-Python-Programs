@@ -1,0 +1,13 @@
+def binary_search(arr, target):
+    lb = 0
+    ub = len(arr) - 1
+    while lb <= ub:
+        mid = (lb + ub) // 2
+        if arr[mid] == target:
+            return mid
+        elif arr[mid] < target:
+            lb = mid + 1
+        else:
+            ub = mid - 1
+            
+    return -1
